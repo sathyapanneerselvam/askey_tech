@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Employee Form</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="brand-name">ASKEY TECH</div>
+
+  <form class="form-container" action="insert.php" method="POST" id="employeeForm">
+
+    <h2>Employee Form</h2>
+    <label for="empno">Employee Number</label>
+    <input type="text" name="empno" id="empno" />
+
+    <label for="empname">Employee Name</label>
+    <input type="text" name="empname" id="empname" />
+
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age"  />
+
+    <label for="salary">Salary</label>
+    <input type="number" name="salary" id="salary"  />
+
+    <button type="submit">Submit</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
