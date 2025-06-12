@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS employee_db;
+
+USE employee_db;
+
+CREATE TABLE employees (
+    empno INT PRIMARY KEY,
+    empname VARCHAR(100),
+    age INT,
+    salary DECIMAL(10,2)
+);
